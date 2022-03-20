@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="fontawesome.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h2>Password Generator</h2>
+        </div>
+        <div class="body">
+            <div class="card">
+                <div class="result-password">
+                    <span id="result"></span>
+                    <button class="btn" id="clipboard">
+                        <i class="fa-solid fa-copy" id="clipboard-svg"></i>
+                    </button>
+                </div>
+                <div class="opts">
+                    <div class="input-opts">
+                        <label for="check1">Password Length</label>
+                        <input type="number" name="" id="length" min="4" max="20" value="20">
+                    </div>
+                    <div class="input-opts">
+                        <label for="uppercase">Include Uppercase Letters</label>
+                        <input type="checkbox" id="uppercase" checked>
+                    </div>
+                    <div class="input-opts">
+                        <label for="lowercase">Include Lowercase Letters</label>
+                        <input type="checkbox" id="lowercase" checked>
+                    </div>
+                    <div class="input-opts">
+                        <label for="numbers">Include Numbers</label>
+                        <input type="checkbox" id="numbers" checked>
+                    </div>
+                    <div class="input-opts">
+                        <label for="symbols">Include Symbols</label>
+                        <input type="checkbox" id="symbols" checked>
+                    </div>
+                </div>
+                <div class="input-opts">
+                    <button id="generate">
+                        Generate Password
+                    </button>
+                </div>
+                <div class="copied-stat">
+                    <span id="copied-stat"></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Made by <a href="http://kerem.plutonbilisim.online/" target="blank_">Kerem Arslantürk</a></h3>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

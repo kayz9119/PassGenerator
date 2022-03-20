@@ -1,0 +1,16 @@
+{
+    "name": "Password Generator",
+    "description": "Sizin için hızlı ve güvenli şifre oluşturucu!",
+    "version": "0.0.1",
+    "manifest_version":2,
+    "icons": {
+        "16": "passwd-generator-16px.png",
+        "48": "passwd-generator-48px.png",
+        "128": "passwd-generator-128px.png"
+    },
+    "browser_action": {
+        "default_icon": "passwd-generator-48px.png",
+        "default_popup": "./popup/index.html",
+        "default_title": "Password Generator"
+    }
+}
